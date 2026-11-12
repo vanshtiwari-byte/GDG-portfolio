@@ -136,20 +136,21 @@ footer {
 }
 
 .light {
-    background: rgb(225, 216, 216);
-    color: black;
+    background: #e1e0eb;
+    color: rgb(42, 14, 14);
 }
 
 .light nav,
 .light footer {
-    background: #14273f;
+    background: #9bc1f0;
 }
 
 .light section {
     color: black;
+    
 }
 
 .light .cards div {
-    background: #204370;
+    background: #50565d;
     color: black;
 }
