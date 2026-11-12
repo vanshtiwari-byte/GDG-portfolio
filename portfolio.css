@@ -1,0 +1,155 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background:  #0f172a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8%;
+    background: #111827;
+    align-items: center;
+}
+
+nav h2 {
+    color: #a78bfa;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #a78bfa;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(135deg, #1e1b4b, #0f172a);
+}
+
+.hero h1 {
+    font-size: 55px;
+    color: #a78bfa;
+    margin: 10px;
+}
+
+.hero h2 {
+    margin: 15px;
+}
+
+.hero p {
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: #8b5cf6;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #6366f1;
+}
+
+section:not(.hero) {
+    padding: 65px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #a78bfa;
+    margin-bottom: 25px;
+}
+
+section p {
+    color: #cbd5e1;
+    line-height: 1.8;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards div {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 10px;
+    width: 180px;
+    border: 1px solid #475569;
+    transition: 0.3s;
+}
+
+.cards div:hover {
+    transform: translateY(-7px);
+    border-color: #a78bfa;
+}
+
+.project p {
+    font-size: 14px;
+}
+
+footer {
+    background: #111827;
+    padding: 20px;
+    text-align: center;
+    color: #94a3b8;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 13px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .cards div {
+        width: 100%;
+    }
+}
+
+.light {
+    background: rgb(225, 216, 216);
+    color: black;
+}
+
+.light nav,
+.light footer {
+    background: #14273f;
+}
+
+.light section {
+    color: black;
+}
+
+.light .cards div {
+    background: #204370;
+    color: black;
+}
