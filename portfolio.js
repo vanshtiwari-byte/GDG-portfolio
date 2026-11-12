@@ -8,6 +8,6 @@ function changeTheme() {
     document.body.classList.toggle("light");
 }
 
-document.getElementById("year").innerText =
-    new Date().getFullYear();
+// document.getElementById("year").innerText =
+//     new Date().getFullYear();
 

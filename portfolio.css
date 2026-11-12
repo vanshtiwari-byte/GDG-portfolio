@@ -135,6 +135,15 @@ footer {
     }
 }
 
+#ct{
+    
+    background-color: rgb(43, 23, 97);
+    color: #cbd5e1;
+    border: #1e1b4b;
+    border-radius: 15%;
+    
+}
+
 .light {
     background: #e1e0eb;
     color: rgb(42, 14, 14);
@@ -143,6 +152,7 @@ footer {
 .light nav,
 .light footer {
     background: #9bc1f0;
+    color: black;
 }
 
 .light section {
